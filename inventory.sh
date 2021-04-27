@@ -1,6 +1,13 @@
-#!bin/bash
+#!/bin/bash
+
 #Author: Aisha
-if [$? -eq 0]
+
+date
+
+if [ $? -eq 0 ]
 then 
 echo "success"
+
+else
+echo "fail"
 fi
